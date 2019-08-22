@@ -10,7 +10,9 @@ explanation - "Imphal*","Lilong","Mayang Imphal","Thoubal" have their first lett
 */
 
 let cityData = {
-  "Andaman and Nicobar Islands": ["Port Blair*"],
+  "Andaman and Nicobar Islands": [
+    "Port Blair*"
+  ],
   "Andhra Pradesh": [
     "Adoni",
     "Amalapuram",
@@ -96,8 +98,11 @@ let cityData = {
     "Yemmiganur",
     "Yerraguntla"
   ],
-  "Arunachal Pradesh": ["Naharlagun", "Pasighat"],
-  Assam: [
+  "Arunachal Pradesh": [
+    "Naharlagun",
+    "Pasighat"
+  ],
+  "Assam": [
     "Barpeta",
     "Bongaigaon City",
     "Dhubri",
@@ -124,7 +129,7 @@ let cityData = {
     "Tezpur",
     "Tinsukia"
   ],
-  Bihar: [
+  "Bihar": [
     "Araria",
     "Arrah",
     "Arwal",
@@ -196,8 +201,10 @@ let cityData = {
     "Supaul",
     "Warisaliganj"
   ],
-  Chandigarh: ["Chandigarh*"],
-  Chhattisgarh: [
+  "Chandigarh": [
+    "Chandigarh*"
+  ],
+  "Chhattisgarh": [
     "Ambikapur",
     "Bhatapara",
     "Bhilai Nagar",
@@ -218,10 +225,20 @@ let cityData = {
     "Sakti",
     "Tilda Newra"
   ],
-  "Dadra and Nagar Haveli": ["Silvassa*"],
-  Delhi: ["Delhi", "New Delhi*"],
-  Goa: ["Mapusa", "Margao", "Marmagao", "Panaji*"],
-  Gujarat: [
+  "Dadra and Nagar Haveli": [
+    "Silvassa*"
+  ],
+  "Delhi": [
+    "Delhi",
+    "New Delhi*"
+  ],
+  "Goa": [
+    "Mapusa",
+    "Margao",
+    "Marmagao",
+    "Panaji*"
+  ],
+  "Gujarat": [
     "Adalaj",
     "Ahmedabad",
     "Amreli",
@@ -295,7 +312,7 @@ let cityData = {
     "Wadhwan",
     "Wankaner"
   ],
-  Haryana: [
+  "Haryana": [
     "Bahadurgarh",
     "Bhiwani",
     "Charkhi Dadri",
@@ -353,7 +370,7 @@ let cityData = {
     "Srinagar*",
     "Udhampur"
   ],
-  Jharkhand: [
+  "Jharkhand": [
     "Adityapur",
     "Bokaro Steel City",
     "Chaibasa",
@@ -382,7 +399,7 @@ let cityData = {
     "Simdega",
     "Tenu dam-cum-Kathhara"
   ],
-  Karnataka: [
+  "Karnataka": [
     "Adyar",
     "Afzalpur",
     "Arsikere",
@@ -463,8 +480,10 @@ let cityData = {
     "Wadi",
     "Yadgir"
   ],
-  Karnatka: ["Mysore"],
-  Kerala: [
+  "Karnatka": [
+    "Mysore"
+  ],
+  "Kerala": [
     "Adoor",
     "Alappuzha",
     "Attingal",
@@ -601,7 +620,7 @@ let cityData = {
     "Vijaypur",
     "Wara Seoni"
   ],
-  Maharashtra: [
+  "Maharashtra": [
     "[[]]",
     "Ahmednagar",
     "Akola",
@@ -725,10 +744,23 @@ let cityData = {
     "Yawal",
     "Yevla"
   ],
-  Manipur: ["Imphal*", "Lilong", "Mayang Imphal", "Thoubal"],
-  Meghalaya: ["Nongstoin", "Shillong*", "Tura"],
-  Mizoram: ["Aizawl", "Lunglei", "Saiha"],
-  Nagaland: [
+  "Manipur": [
+    "Imphal*",
+    "Lilong",
+    "Mayang Imphal",
+    "Thoubal"
+  ],
+  "Meghalaya": [
+    "Nongstoin",
+    "Shillong*",
+    "Tura"
+  ],
+  "Mizoram": [
+    "Aizawl",
+    "Lunglei",
+    "Saiha"
+  ],
+  "Nagaland": [
     "Dimapur",
     "Kohima*",
     "Mokokchung",
@@ -736,7 +768,7 @@ let cityData = {
     "Wokha",
     "Zunheboto"
   ],
-  Odisha: [
+  "Odisha": [
     "Balangir",
     "Baleshwar Town",
     "Barbil",
@@ -772,8 +804,13 @@ let cityData = {
     "Tarbha",
     "Titlagarh"
   ],
-  Puducherry: ["Karaikal", "Mahe", "Pondicherry*", "Yanam"],
-  Punjab: [
+  "Puducherry": [
+    "Karaikal",
+    "Mahe",
+    "Pondicherry*",
+    "Yanam"
+  ],
+  "Punjab": [
     "Amritsar",
     "Barnala",
     "Batala",
@@ -829,7 +866,7 @@ let cityData = {
     "Zira",
     "Zirakpur"
   ],
-  Rajasthan: [
+  "Rajasthan": [
     "Ajmer",
     "Alwar",
     "Bikaner",
@@ -1020,7 +1057,7 @@ let cityData = {
     "Virudhunagar",
     "Viswanatham"
   ],
-  Telangana: [
+  "Telangana": [
     "Adilabad",
     "Bellampalle",
     "Bhadrachalam",
@@ -1062,7 +1099,7 @@ let cityData = {
     "Warangal",
     "Yellandu"
   ],
-  Tripura: [
+  "Tripura": [
     "Agartala*",
     "Belonia",
     "Dharmanagar",
@@ -1191,7 +1228,7 @@ let cityData = {
     "Zaidpur",
     "Zamania"
   ],
-  Uttarakhand: [
+  "Uttarakhand": [
     "Bageshwar",
     "Dehradun",
     "Haldwani-cum-Kathgodam",
@@ -1259,12 +1296,18 @@ let cityData = {
   ]
 };
 
-let findCityFunction = stateName => {
+let findCityFunction = (stateName)=>{
   // start your code here.
-  for (x in cityData) {
-      console.log(x);
-      
-    }
+for(x in cityData){
+
+  if(Object.keys(cityData)==stateName){
+    
   }
 
-let res = findCityFunction("Bihar");
+}
+
+};
+
+let res = findCityFunction("Manipur")
+
+//module.exports ={findCityFunction:findCityFunction};
