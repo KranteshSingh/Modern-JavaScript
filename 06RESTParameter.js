@@ -1,8 +1,8 @@
-// Defined an array to store address of a userId
+// Defined an array to store address of a user
 let allUserAddress = []
 
 let storeUserAddress = (userId,...addressToStore) =>{
-	// allUserAddress.push({userId:userId, userAddress:addressToStore})
+	//allUserAddress.push({userId:userId, userAddress:addressToStore})
 	//Defined an Object to store user Id and Address
 	
 	console.log(userId)
