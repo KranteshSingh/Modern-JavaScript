@@ -3,7 +3,6 @@
 Complete the functions below that finds the largest prime factor of a number. 
 The function that takes the number as input and return the largest prime factor as output. 
 
-
 */
 
 let isPrime = function (n) {
@@ -28,14 +27,3 @@ let isPrime = function (n) {
  let res = getLargestPrimeFactor(600851475143)
  console.log(res)
 // module.exports = { getLargestPrimeFactor: getLargestPrimeFactor };
- 
-var divisor = 2;
-
-while(number > 1){
-    if(number % divisor === 0){ 
-        number /= divisor;
-    } else {
-        divisor++;
-    }
-}
- 
