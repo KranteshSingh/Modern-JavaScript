@@ -12,6 +12,10 @@ let calculateAge = function(day, month, year) {
     let age = today.getFullYear() - birthDate.getFullYear();
     console.log(today.getMonth()-birthDate.getMonth())
     let m = today.getMonth() - birthDate.getMonth();
+    console.log(today.getMonth())
+    console.log(month)
+    console.log(typeof(birthDate))
+    console.log(typeof(today))
     console.log(today.getDate() < birthDate.getDate())
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
         age--;
@@ -20,7 +24,7 @@ let calculateAge = function(day, month, year) {
   };
   
 
-let result = calculateAge(25,07,1996);
+let result = calculateAge(25,09,1999);
 
 console.log(result)
 
